@@ -5,3 +5,16 @@ $('.search-button').click(function () {
 
 })       //triggering event to the search-button class
 
+var displayWikipediaData = function() {
+    $.ajax({ 
+        url:
+        success: function(response) {
+            //do something
+            console.log("Yay! Success! Our ajax request worked!")
+
+        }
+
+
+    })
+
+}
