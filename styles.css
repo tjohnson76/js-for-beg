@@ -64,7 +64,7 @@
 
 .material-icons { 
   height: 43px;
-  background-color: #232C3F;
+  background-color: lightgray;
   }
 
 .form {
@@ -78,7 +78,7 @@
 }
 
 input[type=text]:focus {
-    background-color: #232C3F;
+    background-color: lightgray;
 }
 
 .input {
@@ -104,19 +104,21 @@ a {
   padding-left: 50px;
 }
 
-.stark-logo {
+.apls-logo {
   margin-top: 20px;
   margin-left: 150px;
   
 }
 
-.stark-image {
+.apls-image {
     width: 210px;
     height: 210px;
     margin-left: 270px;
+    /*
     -webkit-animation:spin 13s linear infinite;
     -moz-animation:spin 10s linear infinite;
     animation:spin 13s linear infinite;
+    */
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
